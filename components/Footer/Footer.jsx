@@ -32,7 +32,9 @@ const Footer = () => {
 							<ul key={key}>
 								{more?.map(({ href, key, label }) => (
 									<li>
-										<Link href={href}>{label}</Link>
+										<Link key={key} href={href}>
+											{label}
+										</Link>
 									</li>
 								))}
 							</ul>
