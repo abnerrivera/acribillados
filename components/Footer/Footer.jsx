@@ -31,10 +31,8 @@ const Footer = () => {
 							<h4 className="list-item">{label}</h4>
 							<ul>
 								{more?.map(({ href, key, label }) => (
-									<li>
-										<Link key={key} href={href}>
-											{label}
-										</Link>
+									<li key={key}>
+										<Link href={href}>{label}</Link>
 									</li>
 								))}
 							</ul>
