@@ -29,7 +29,7 @@ const Footer = () => {
 					{NAV_ITEMS.map(({ href, key, label, more }) => (
 						<div key={key} className="footer-list">
 							<h4 className="list-item">{label}</h4>
-							<ul key={key}>
+							<ul>
 								{more?.map(({ href, key, label }) => (
 									<li>
 										<Link key={key} href={href}>
