@@ -1,6 +1,11 @@
+import './Shop.css'
 
 const Shop = () => {
-	return <h1>Shop</h1>;
+	return (
+		<div className="shop ctn">
+
+		</div>
+	);
 };
 
 export default Shop;

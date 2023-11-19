@@ -1,0 +1,30 @@
+.card {
+	width: 250px;
+	min-height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	border-radius: 6px;
+    padding-bottom: 20px;
+	border: 2.5px solid #e025ce;
+	background: linear-gradient(
+		139deg,
+		rgba(255, 255, 255, 0.13) -6.39%,
+		rgba(255, 255, 255, 0.06) 112.17%
+	);
+	backdrop-filter: blur(25.3809757232666px);
+	text-align: center;
+}
+
+.card img {
+	width: auto;
+    height: auto;
+	border-radius: 6px 6px 0px 0px;
+}
+
+.card-ctn {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}

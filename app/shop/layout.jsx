@@ -1,29 +1,25 @@
 import Link from 'next/link';
+import { LINKS_SHOP } from '@/constants';
+import './Shop.css';
 
 export const metadata = {
-	title: 'Shop Server',
+	title: 'Tienda Acribillados',
 };
 
 const ShopLayout = ({ children }) => {
 	return (
-		<div>
-			<div>
-				<h3>Seccion Tienda</h3>
-
+		<>
+			<div className="nav-shop">
 				<ul>
-					<li>
-						<Link href="/shop">Shop</Link>
-					</li>
-					<li>
-						<Link href="/shop/vips">Vips</Link>
-					</li>
-					<li>
-						<Link href="/shop/vehicles">Vehicles</Link>
-					</li>
+					{LINKS_SHOP.map(({ key, href, label }) => (
+						<li key={key}>
+							<Link href={href}>{label}</Link>
+						</li>
+					))}
 				</ul>
 			</div>
 			{children}
-		</div>
+		</>
 	);
 };
 

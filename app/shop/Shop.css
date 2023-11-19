@@ -1,0 +1,15 @@
+.shop {
+	width: 90%;
+	min-height: calc(100vh - 90px);
+	margin-top: 90px;
+}
+
+.nav-shop{
+    width: 100%;
+    margin-top: 90px;
+}
+
+.nav-shop ul{
+    display: flex;
+    background-color: green;
+}
