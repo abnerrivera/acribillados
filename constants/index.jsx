@@ -102,3 +102,34 @@ export const NORMATIVAS = [
 		href: 'https://docs.google.com/document/d/1qwKe9qtsGF6mqMuM91xlYqKdfuT8u15RtViz0M8mKpg/edit',
 	},
 ];
+
+export const SHOP_HOME = [
+	{
+		key: '1',
+		img: '/test-img.png',
+		label: 'VIPS',
+		desc: 'La siguiente normativa contiene los conceptos basicos de rol y tambien la normativa interna de la ciudad.',
+		href: '/shop/vips',
+	},
+	{
+		key: '2',
+		img: '/test-img.png',
+		label: 'VIPS',
+		desc: 'La siguiente normativa contiene los conceptos basicos de rol y tambien la normativa interna de la ciudad.',
+		href: '/shop/vips',
+	},
+	{
+		key: '3',
+		img: '/test-img.png',
+		label: 'VIPS',
+		desc: 'La siguiente normativa contiene los conceptos basicos de rol y tambien la normativa interna de la ciudad.',
+		href: '/shop/vips',
+	},
+	{
+		key: '4',
+		img: '/test-img.png',
+		label: 'VIPS',
+		desc: 'La siguiente normativa contiene los conceptos basicos de rol y tambien la normativa interna de la ciudad.',
+		href: '/shop/vips',
+	},
+];

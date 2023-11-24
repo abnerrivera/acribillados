@@ -8,7 +8,15 @@ const Rules = () => {
 			<h2 className="title">NORMATIVAS</h2>
 			<div className="cards-rules-ctn">
 				{NORMATIVAS.map(({ desc, href, img, key, label }) => (
-					<Card key={key} img={img} title={label} desc={desc} href={href} />
+					<Card
+						key={key}
+						img={img}
+						title={label}
+						desc={desc}
+						href={href}
+						variant="card-small"
+						newTab={true}
+					/>
 				))}
 			</div>
 		</div>

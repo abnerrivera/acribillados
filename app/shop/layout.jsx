@@ -10,7 +10,7 @@ const ShopLayout = ({ children }) => {
 	return (
 		<>
 			<div className="nav-shop">
-				<ul>
+				<ul className='ctn'>
 					{LINKS_SHOP.map(({ key, href, label }) => (
 						<li key={key}>
 							<Link href={href}>{label}</Link>
