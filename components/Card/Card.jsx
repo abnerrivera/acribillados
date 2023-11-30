@@ -13,7 +13,7 @@ const Card = ({ img, title, desc, href, variant, newTab }) => {
 
 	return (
 		<div className="card">
-			{img && <Image src={img} alt={title} width={220} height={240} />}
+			{img && <Image src={img} alt={title} width={1350} height={1350} />}
 			<div className={`card-ctn ${variant}`}>
 				<h3>{title}</h3>
 				<p>{desc}</p>
